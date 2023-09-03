@@ -1,0 +1,14 @@
+
+####
+POST http://localhost:5000/eduallpublicationregister/post
+content-type: application/json
+
+{ 
+   "post_for":0,  
+    "post_total_files":2, 
+    "post_text":"ola", 
+    "post_code":"490094404904904904"
+}
+
+###
+Get http://localhost:5000/lc
